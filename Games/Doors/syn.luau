@@ -1213,8 +1213,8 @@ Functions.GetRandomCode = function()
 end
 
 local Window = Library:CreateWindow({
-	Title = "SynnHub",
-	Footer = "syn.gg/synnhub",
+	Title = "synn",
+	Footer = ".gg/tpz89CYsZt",
 	NotifySide = "Right",
 	ShowCustomCursor = false,
 	AutoShow = true,
@@ -1238,12 +1238,12 @@ local Window = Library:CreateWindow({
 Abysall.Interface.ApplyInfoTab(Window)
 
 local Tabs = {
-	General  = Window:AddTab("General", "house"),
 	Exploits = Window:AddTab("Exploits", "shield"),
 	Visuals  = Window:AddTab("Visuals", "eye"),
+    General  = Window:AddTab("General", "house"),
 	Floors   = Window:AddTab("Floors", "earth"),
-	Stairwell = Window:AddTab("New - Stairwell", "rbxassetid://80017304328364"),
-	Archives  = Window:AddTab("New - Archives", "rbxassetid://104508835882225"),
+	Archives = Window:AddTab("Archives", "rbxassetid://80017304328364"),
+	Stairwell = Window:AddTab("Stairwell", "rbxassetid://104508835882225"),
 }
 
 Groupboxes.General_Character = Tabs.General:AddLeftGroupbox("Character")
