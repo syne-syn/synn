@@ -15,7 +15,7 @@ getgenv().Abysall = {
     Legit = true
 }
 
-local BaseUrl = "https://raw.githubusercontent.com/synn-hub/SynnHub/main/"
+local BaseUrl = "https://raw.githubusercontent.com/syne-syn//main/"
 
 getgenv().Abysall = {
     Environment = loadstring(game:HttpGet(BaseUrl .. "Components/Environment.luau"))(),
