@@ -300,7 +300,7 @@ local EntityIcons = {
 
 local ItemNames = {
 	["DinkyLamp"]         = "Lamp",
-	["BottleCrate"]       = "18+ Bottles",
+	["BottleCrate"]       = "Bottle Crate",
 	["GweenSodaPack"]     = "Gween Soda Pack",
 	["BrokenMonitor"]     = "Broken Monitor",
 	["JerryCan"]          = "Jerry Can",
